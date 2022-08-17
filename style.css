@@ -6,10 +6,14 @@
     transition: all 0.5s ease;
 }
 
+html, body{
+     overflow: hidden;
+}
+
 body {
     font-family: sans-serif;
-    background-image: url(image/bgd.gif);   
-    overflow: hidden;
+    background-image: url(image/bgd.gif);
+    background-size: cover;
 }   
 
 a {
