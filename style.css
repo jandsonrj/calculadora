@@ -10,10 +10,11 @@ html, body{
     overflow: hidden;
 }
 
-body {
+body{
+    background-size: cover;
+    background-position: center;
     font-family: sans-serif;
     background-image: url(image/bgd.gif);   
-    background-size: cover;
 }   
 
 a {
@@ -169,7 +170,6 @@ button#equal {
 footer{
     color: #fff;
     text-align: center;
-    flex-shrink: 0;
 }
 
 footer span a{
